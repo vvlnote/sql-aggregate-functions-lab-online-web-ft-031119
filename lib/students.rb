@@ -5,7 +5,7 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
-  "SELECT gpa FROM students ORDER BY gpa DESC LIMIT 1;"
+  "SELECT gpa FROM students ORDER BY gpa;"
 end
 
 def average_student_gpa
